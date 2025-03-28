@@ -13,12 +13,13 @@
     <div class="container">
       <h1>World Clock 🕐</h1>
 
-      <select>
+      <select id="city">
         <option value="">Select a city..</option>
-        <option value="">London</option>
-        <option value="">Paris</option>
-        <option value="">Japan</option>
+        <option value="Europe/London">London</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="Asia/Tokyo">Tokyo</option>
       </select>
+      <div id="cities">
        <div class="city">
         <div id="london"><h2>London</h2>
         <div class="date" id="london-date">August 15th 2022</div>
@@ -32,12 +33,14 @@
         <div class="time" id="los-angeles-time">1:48:15 <small>AM</small></div>
       </div>
        <div class="city">
-        <div id="japan"><h2>Japan</h2>
-        <div class="date" id="japan-date">August 15th 2022</div>
+        <div id="tokyo"><h2>Tokyo</h2>
+        <div class="date" id="tokyo-date">August 15th 2022</div>
         </div>
-        <div class="time" id="japan-time">1:48:15 <small>AM</small></div>
+        <div class="time" id="tokyo-time">1:48:15 <small>AM</small></div>
       </div>
     </div>
+    </div>
+    <br/>
       <footer>
         This Project is coded by
         <a href="https://github.com/Manpreet-star" target="_blank"
